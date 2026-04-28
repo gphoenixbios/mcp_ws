@@ -1,0 +1,278 @@
+{
+  "confluence_base_url": "https://woolimi.atlassian.net",
+  "space_key": "FN",
+  "space_id": "40828932",
+  "space_name": "최종2팀",
+  "homepage_id": "40829168",
+  "local_root": "../confluence_content",
+  "page_tree": {
+    "40829168": {
+      "title": "최종2팀",
+      "parent_id": null,
+      "local_path": "최종2팀",
+      "is_folder": true
+    },
+    "40796163": {
+      "title": "Validation",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/Validation"
+    },
+    "40829224": {
+      "title": "Implementation",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/Implementation",
+      "is_folder": true
+    },
+    "40960005": {
+      "title": "Basic Project Setup",
+      "parent_id": "40829224",
+      "local_path": "최종2팀/Implementation/Basic Project Setup"
+    },
+    "40992790": {
+      "title": "Simulation",
+      "parent_id": "40829224",
+      "local_path": "최종2팀/Implementation/Simulation"
+    },
+    "41189378": {
+      "title": "Tech Research",
+      "parent_id": "40829224",
+      "local_path": "최종2팀/Implementation/Tech Research",
+      "is_folder": true
+    },
+    "41582628": {
+      "title": "OMX (OpenMANIPULATOR-X) 로 LeRobot 양팔 학습하기",
+      "parent_id": "41189378",
+      "local_path": "최종2팀/Implementation/Tech Research/OMX (OpenMANIPULATOR-X) 로 LeRobot 양팔 학습하기"
+    },
+    "42893322": {
+      "title": "3D 뎁스 카메라 (Depth Camera)",
+      "parent_id": "41189378",
+      "local_path": "최종2팀/Implementation/Tech Research/3D 뎁스 카메라 (Depth Camera)",
+      "is_folder": true
+    },
+    "42827821": {
+      "title": "듀얼 웹캠을 이용한 뎁스 카메라 (Stereo Vision) 구현 가이드",
+      "parent_id": "42893322",
+      "local_path": "최종2팀/Implementation/Tech Research/3D 뎁스 카메라 (Depth Camera)/듀얼 웹캠을 이용한 뎁스 카메라 (Stereo Vision) 구현 가이드"
+    },
+    "42893385": {
+      "title": "모방학습 논문 조사 리스트",
+      "parent_id": "41189378",
+      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트",
+      "is_folder": true
+    },
+    "42827861": {
+      "title": "π*0.6 논문 리뷰  Experience-aware VLA",
+      "parent_id": "42893385",
+      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/π*0.6 논문 리뷰  Experience-aware VLA"
+    },
+    "42893411": {
+      "title": "상호작용 모방 학습 (IIL) 및 RLIF 기술조사 (이정우)",
+      "parent_id": "42893385",
+      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/상호작용 모방 학습 (IIL) 및 RLIF 기술조사 (이정우)"
+    },
+    "43122698": {
+      "title": "Action Chunking with Transformers(ACT) 구조와 성능 분석 논문 리뷰",
+      "parent_id": "42893385",
+      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/Action Chunking with Transformers(ACT) 구조와 성능 분석 논문 리뷰"
+    },
+    "43220993": {
+      "title": "VLA 의 역사와 발전사에 관한 개요. 그리고 그것에 관한 논문들 리스트 정리",
+      "parent_id": "42893385",
+      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/VLA 의 역사와 발전사에 관한 개요. 그리고 그것에 관한 논문들 리스트 정리"
+    },
+    "44433410": {
+      "title": "Demystifying Diffusion Policies: Action Memorization and Simple Lookup Table Alternatives",
+      "parent_id": "42893385",
+      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/Demystifying Diffusion Policies_ Action Memorization and Simple Lookup Table Alternatives"
+    },
+    "40927234": {
+      "title": "Concepts",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/Concepts",
+      "is_folder": true
+    },
+    "41156729": {
+      "title": "About Project",
+      "parent_id": "40927234",
+      "local_path": "최종2팀/Concepts/About Project"
+    },
+    "41222230": {
+      "title": "프로젝트 주제 선정 회의",
+      "parent_id": "40927234",
+      "local_path": "최종2팀/Concepts/프로젝트 주제 선정 회의"
+    },
+    "40992771": {
+      "title": "Meeting Notes",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/Meeting Notes",
+      "is_folder": true
+    },
+    "40796182": {
+      "title": "Mentoring",
+      "parent_id": "40992771",
+      "local_path": "최종2팀/Meeting Notes/Mentoring",
+      "is_folder": true
+    },
+    "41189454": {
+      "title": "# 26-xx-xx Mentoring",
+      "parent_id": "40796182",
+      "local_path": "최종2팀/Meeting Notes/Mentoring/# 26-xx-xx Mentoring"
+    },
+    "42467329": {
+      "title": "26-04-24-2 Mentoring",
+      "parent_id": "40796182",
+      "local_path": "최종2팀/Meeting Notes/Mentoring/26-04-24-2 Mentoring"
+    },
+    "40992828": {
+      "title": "Standup Meeting",
+      "parent_id": "40992771",
+      "local_path": "최종2팀/Meeting Notes/Standup Meeting",
+      "is_folder": true
+    },
+    "41091178": {
+      "title": "26-xx-xx Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-xx-xx Stand Up Meeting"
+    },
+    "41517330": {
+      "title": "26-04-24 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-04-24 Stand Up Meeting"
+    },
+    "43548673": {
+      "title": "26-04-27 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-04-27 Stand Up Meeting"
+    },
+    "44892161": {
+      "title": "26-04-28 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-04-28 Stand Up Meeting"
+    },
+    "41058309": {
+      "title": "Sprint Meeting",
+      "parent_id": "40992771",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting",
+      "is_folder": true
+    },
+    "41189582": {
+      "title": "Sprint #1",
+      "parent_id": "41058309",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #1"
+    },
+    "41615614": {
+      "title": "Sprint #3",
+      "parent_id": "41058309",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #3"
+    },
+    "41615623": {
+      "title": "Sprint #6",
+      "parent_id": "41058309",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #6"
+    },
+    "42041345": {
+      "title": "Sprint #2",
+      "parent_id": "41058309",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #2"
+    },
+    "42041354": {
+      "title": "Sprint #4",
+      "parent_id": "41058309",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #4"
+    },
+    "42041363": {
+      "title": "Sprint #5",
+      "parent_id": "41058309",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #5"
+    },
+    "42041372": {
+      "title": "Sprint #7",
+      "parent_id": "41058309",
+      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #7"
+    },
+    "41123852": {
+      "title": "Presentation",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/Presentation"
+    },
+    "41156610": {
+      "title": "Design",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/Design",
+      "is_folder": true
+    },
+    "40763394": {
+      "title": "Directory Structure",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/Directory Structure"
+    },
+    "40763414": {
+      "title": "System Requirements",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/System Requirements"
+    },
+    "40796220": {
+      "title": "ERD",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/ERD"
+    },
+    "40927253": {
+      "title": "Interface Specification",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/Interface Specification"
+    },
+    "40927273": {
+      "title": "Map",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/Map"
+    },
+    "40927292": {
+      "title": "State Diagram",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/State Diagram"
+    },
+    "40992866": {
+      "title": "Sequence Diagram",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/Sequence Diagram"
+    },
+    "41058328": {
+      "title": "User Requirements",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/User Requirements"
+    },
+    "41189397": {
+      "title": "GUI",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/GUI"
+    },
+    "41189416": {
+      "title": "System Architecture",
+      "parent_id": "41156610",
+      "local_path": "최종2팀/Design/System Architecture"
+    },
+    "41156630": {
+      "title": "Final Report",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/Final Report"
+    },
+    "41222145": {
+      "title": "📝 테스트 및 검증",
+      "parent_id": "40829168",
+      "local_path": "최종2팀/📝 테스트 및 검증",
+      "is_folder": true
+    },
+    "40927460": {
+      "title": "Sprint X Test Plan",
+      "parent_id": "41222145",
+      "local_path": "최종2팀/📝 테스트 및 검증/Sprint X Test Plan"
+    },
+    "41123943": {
+      "title": "Sprint X Test Report",
+      "parent_id": "41222145",
+      "local_path": "최종2팀/📝 테스트 및 검증/Sprint X Test Report"
+    }
+  },
+  "_last_synced_target": "https://woolimi.atlassian.net|FN"
+}

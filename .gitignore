@@ -1,0 +1,21 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Claude Code 개인 권한 / 설정
+.claude/
+
+# Confluence sync internal state
+confluence_sync/.sync_hashes.json
+confluence_sync/.push_queue_*.json
+confluence_sync/.missing_attachments.json

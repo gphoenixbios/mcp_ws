@@ -1,0 +1,14 @@
+{
+  "jira_base_url": "https://woolimi.atlassian.net",
+  "project_key": "FN",
+  "board_id": 134,
+  "board_name": "FN board",
+  "board_type": "simple",
+  "local_root": "../jira_content",
+  "stats": {
+    "sprint_count": 7,
+    "issue_count": 13,
+    "last_synced": "2026-04-28T23:56:42.666547"
+  },
+  "_last_synced_target": "https://woolimi.atlassian.net|FN|134"
+}
