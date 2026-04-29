@@ -19,6 +19,7 @@ import re
 import shutil
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import quote, unquote
 
 from drawio_utils import (
     find_drawio_macros,
@@ -34,6 +35,15 @@ RAW_HTML_DIR = SCRIPT_DIR / "raw_html"
 RAW_ATTACH_DIR = SCRIPT_DIR / "raw_attachments"
 CONTENT_ROOT = WS_ROOT / "confluence_content"
 MISSING_LOG = SCRIPT_DIR / ".missing_attachments.json"
+
+
+def _md_url(path: str) -> str:
+    """마크다운 링크/이미지 URL의 공백·특수문자를 %xx 로 인코딩.
+    외부 URL(http/https/mailto/#fragment)은 그대로 두고,
+    이미 인코딩된 경우에도 idempotent 하도록 unquote→quote 처리."""
+    if not path or path.startswith(("http://", "https://", "mailto:", "#")):
+        return path
+    return quote(unquote(path), safe="/")
 
 PAGE_CSS = """
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
@@ -297,10 +307,10 @@ class HTMLToMarkdown(HTMLParser):
         elif tag == "tr": self.current_row = []
         elif tag == "img":
             src = ad.get("src", ""); alt = ad.get("alt", "")
-            self._emit(f"![{alt}]({src})")
+            self._emit(f"![{alt}]({_md_url(src)})")
         elif tag == "video":
             src = ad.get("src", "")
-            self._emit(f"\n\n[📹 video: {src}]({src})\n\n")
+            self._emit(f"\n\n[📹 video: {src}]({_md_url(src)})\n\n")
         elif tag == "div":
             cls = ad.get("class", "")
             if cls in ("info", "note", "warning", "tip", "panel"):
@@ -323,7 +333,7 @@ class HTMLToMarkdown(HTMLParser):
         elif tag == "a":
             self.in_link = False
             if self.link_href:
-                self._emit(f"[{self.link_text}]({self.link_href})")
+                self._emit(f"[{self.link_text}]({_md_url(self.link_href)})")
             else:
                 self._emit(self.link_text)
         elif tag in ("ul", "ol"):
@@ -344,7 +354,7 @@ class HTMLToMarkdown(HTMLParser):
         ad = dict(attrs)
         if tag == "img":
             src = ad.get("src", ""); alt = ad.get("alt", "")
-            self._emit(f"![{alt}]({src})")
+            self._emit(f"![{alt}]({_md_url(src)})")
         elif tag == "br":
             self._emit("  \n")
 
@@ -577,13 +587,16 @@ def render_drawio_md(diagrams: list[dict]) -> dict[int, str]:
     for d in diagrams:
         base = d["base"]
         name = d["name"]
-        img = f"![{name}](drawio/{base}.png)" if d["has_preview"] else \
+        png_url = _md_url(f"drawio/{base}.png")
+        src_url = _md_url(f"drawio/{base}.drawio")
+        mmd_url = _md_url(f"mermaid/{base}.mmd")
+        img = f"![{name}]({png_url})" if d["has_preview"] else \
               f"_(프리뷰 없음: {name})_"
         drawio_ref = (
-            f"[📐 {base}.drawio](drawio/{base}.drawio)"
+            f"[📐 {base}.drawio]({src_url})"
             if d["has_source"] else "(원본 다운로드 필요)"
         )
-        mmd_ref = f"[✏️ {base}.mmd](mermaid/{base}.mmd)"
+        mmd_ref = f"[✏️ {base}.mmd]({mmd_url})"
         # mermaid 인라인 — 코드블록은 Github/VSCode 에서 자동 렌더
         mmd_block = "```mermaid\n" + d["mermaid_text"].rstrip() + "\n```"
         block = (
