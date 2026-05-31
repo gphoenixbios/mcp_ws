@@ -355,11 +355,6 @@
       "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack",
       "is_folder": true
     },
-    "69927196": {
-      "title": "Controller Server",
-      "parent_id": "64454823",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Controller Server"
-    },
     "69959925": {
       "title": "Route Server",
       "parent_id": "64454823",
@@ -370,10 +365,15 @@
       "parent_id": "64454823",
       "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Costmap"
     },
-    "69992690": {
-      "title": "Planner Server",
+    "69960151": {
+      "title": "can_rotate(안전한 곳에서 90도 이상 회전)",
       "parent_id": "64454823",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Planner Server"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/can_rotate(안전한 곳에서 90도 이상 회전)"
+    },
+    "69992690": {
+      "title": "Planner / Controller Server",
+      "parent_id": "64454823",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Planner _ Controller Server"
     },
     "69992774": {
       "title": "동적장애물 - 사람  일때 경로 재탐색",
@@ -400,6 +400,11 @@
       "parent_id": "69927013",
       "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/hardware specs"
     },
+    "69927355": {
+      "title": "Follow — 추종 (발표 참조)",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Follow — 추종 (발표 참조)"
+    },
     "69959870": {
       "title": "test report",
       "parent_id": "69927013",
@@ -416,60 +421,55 @@
       "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/interfaces"
     },
     "70025363": {
-      "title": "기능 구현 방안",
+      "title": "기능",
       "parent_id": "69927013",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능",
       "is_folder": true
     },
     "69927277": {
       "title": "리턴 기능 / low_battery_returning",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/리턴 기능 _ low_battery_returning"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/리턴 기능 _ low_battery_returning"
     },
     "69927292": {
       "title": "idle 모드",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/idle 모드"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/idle 모드"
     },
     "69960013": {
       "title": "수동모드",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/수동모드"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/수동모드"
     },
     "69992736": {
       "title": "에러 모드",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/에러 모드"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/에러 모드"
     },
     "69992751": {
       "title": "비기능",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/비기능"
-    },
-    "70025380": {
-      "title": "추종_",
-      "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/추종_"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/비기능"
     },
     "70025388": {
       "title": "숨바꼭질",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/숨바꼭질"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/숨바꼭질"
     },
     "70025492": {
       "title": "Admin_ui 기능",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/Admin_ui 기능"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/Admin_ui 기능"
     },
     "70025525": {
       "title": "이동모드",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/이동모드"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/이동모드"
     },
     "70025540": {
       "title": "자장가 모드",
       "parent_id": "70025363",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/자장가 모드"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능/자장가 모드"
     },
     "70025549": {
       "title": "System requirement - gogopingGogoPing",
@@ -636,11 +636,6 @@
       "title": "Demystifying Diffusion Policies: Action Memorization and Simple Lookup Table Alternatives",
       "parent_id": "42893385",
       "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/모방학습 논문 조사 리스트/Demystifying Diffusion Policies_ Action Memorization and Simple Lookup Table Alternatives"
-    },
-    "69927355": {
-      "title": "Follow — 추종 (발표 참조)",
-      "parent_id": "69927013",
-      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Follow — 추종 (발표 참조)"
     }
   },
   "_last_synced_target": "https://woolimi.atlassian.net|FN"
