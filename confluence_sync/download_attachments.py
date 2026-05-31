@@ -59,6 +59,16 @@ def load_credentials() -> tuple[str, str, str]:
     return email, token, base.rstrip("/")
 
 
+def get_cloud_id(base: str) -> str:
+    """인스턴스의 cloudId 조회 (api.atlassian.com 게이트웨이 경유 다운로드에 필요)."""
+    r = requests.get(f"{base}/_edge/tenant_info", timeout=30)
+    r.raise_for_status()
+    cloud_id = r.json().get("cloudId", "")
+    if not cloud_id:
+        raise RuntimeError(f"cloudId 를 가져오지 못했습니다: {base}/_edge/tenant_info")
+    return cloud_id
+
+
 def list_attachments(session: requests.Session, base: str, page_id: str) -> list[dict]:
     """페이지의 모든 첨부 메타데이터 반환."""
     out = []
@@ -78,14 +88,17 @@ def list_attachments(session: requests.Session, base: str, page_id: str) -> list
     return out
 
 
-def download_one(session: requests.Session, base: str, att: dict, dest: Path) -> bool:
+def download_one(session: requests.Session, api_base: str, att: dict, dest: Path) -> bool:
     """첨부 한 개 다운로드. 이미 동일 버전이면 스킵."""
     download_path = att["_links"]["download"]
     # Confluence Cloud 의 _links.download 는 "/download/attachments/{id}/{name}?..."
     # 형태로 /wiki 접두어가 빠진 채 반환됨 → 직접 붙여줌.
     if not download_path.startswith("/wiki/"):
         download_path = "/wiki" + download_path
-    url = f"{base}{download_path}"
+    # 인스턴스 직접 경로(<base>/wiki/download/...)는 세션 쿠키만 받고 API 토큰을
+    # 거부(401, WWW-Authenticate: OAuth)하므로, api.atlassian.com 게이트웨이를 경유한다.
+    # 게이트웨이는 Basic auth 토큰을 인증한 뒤 미디어 CDN으로 리다이렉트해 파일을 내려준다.
+    url = f"{api_base}{download_path}"
 
     # 동일 버전 스킵 — .meta.json 에 기록된 버전 비교
     meta_file = dest.parent / ".meta.json"
@@ -120,7 +133,7 @@ def download_one(session: requests.Session, base: str, att: dict, dest: Path) ->
     return True
 
 
-def sync_page(session: requests.Session, base: str, page_id: str, title: str = "") -> dict:
+def sync_page(session: requests.Session, base: str, api_base: str, page_id: str, title: str = "") -> dict:
     """한 페이지의 모든 첨부 동기화."""
     try:
         atts = list_attachments(session, base, page_id)
@@ -138,7 +151,7 @@ def sync_page(session: requests.Session, base: str, page_id: str, title: str = "
         filename = att["title"]
         dest = page_dir / filename
         try:
-            if download_one(session, base, att, dest):
+            if download_one(session, api_base, att, dest):
                 stats["downloaded"] += 1
             else:
                 stats["skipped"] += 1
@@ -171,13 +184,21 @@ def main():
     session.auth = (email, token)
     session.headers.update({"Accept": "application/json"})
 
-    print(f"\n📥 Confluence 첨부 다운로드 시작 ({len(target_ids)}개 페이지)\n")
+    try:
+        cloud_id = get_cloud_id(base)
+    except Exception as e:
+        print(f"❌ cloudId 조회 실패: {e}")
+        sys.exit(1)
+    api_base = f"https://api.atlassian.com/ex/confluence/{cloud_id}"
+
+    print(f"\n📥 Confluence 첨부 다운로드 시작 ({len(target_ids)}개 페이지)")
+    print(f"   게이트웨이: {api_base}\n")
 
     total = {"downloaded": 0, "skipped": 0, "failed": 0}
     for pid in target_ids:
         info = pages.get(pid, {})
         title = info.get("title", "(unknown)")
-        stats = sync_page(session, base, pid, title)
+        stats = sync_page(session, base, api_base, pid, title)
         total["downloaded"] += stats["downloaded"]
         total["skipped"] += stats["skipped"]
         total["failed"] += stats["failed"]

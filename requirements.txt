@@ -8,6 +8,7 @@
 # 직접 의존성 (코드에서 import):
 requests>=2.31.0          # Atlassian REST API 호출 (pull_space.py, download_attachments.py, pull_jira.py)
 python-dotenv>=1.0.0      # .env 파일에서 ATLASSIAN_EMAIL / ATLASSIAN_API_TOKEN 로드
+beautifulsoup4>=4.12.0    # HTML 파싱 (html_push.py, download_attachments.py)
 
 # 표준 라이브러리만 사용하므로 그 외에는 추가 패키지 불필요:
 #   - json, os, re, sys, datetime, hashlib, shutil, pathlib (Python 3.10+)

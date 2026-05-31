@@ -19,3 +19,8 @@ venv/
 confluence_sync/.sync_hashes.json
 confluence_sync/.push_queue_*.json
 confluence_sync/.missing_attachments.json
+
+# Confluence sync 다운로드/생성 산출물
+confluence_content/
+confluence_sync/raw_attachments/
+confluence_sync/raw_html/

@@ -2,276 +2,645 @@
   "confluence_base_url": "https://woolimi.atlassian.net",
   "space_key": "FN",
   "space_id": "40828932",
-  "space_name": "최종2팀",
+  "space_name": "사랑의 에듀핑 - 핑더가든",
   "homepage_id": "40829168",
   "local_root": "../confluence_content",
   "page_tree": {
     "40829168": {
-      "title": "최종2팀",
+      "title": "사랑의 에듀핑 - 핑더가든",
       "parent_id": null,
-      "local_path": "최종2팀",
+      "local_path": "사랑의 에듀핑 - 핑더가든",
       "is_folder": true
     },
     "40796163": {
-      "title": "Validation",
+      "title": "Test Plan",
       "parent_id": "40829168",
-      "local_path": "최종2팀/Validation"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Test Plan",
+      "is_folder": true
+    },
+    "40927460": {
+      "title": "Test Result # X",
+      "parent_id": "40796163",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Test Plan/Test Result # X"
+    },
+    "41123943": {
+      "title": "Text Plan # X",
+      "parent_id": "40796163",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Test Plan/Text Plan # X"
+    },
+    "49578016": {
+      "title": "Test Result #2",
+      "parent_id": "40796163",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Test Plan/Test Result #2"
+    },
+    "50790426": {
+      "title": "Test Result #3",
+      "parent_id": "40796163",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Test Plan/Test Result #3"
+    },
+    "58097829": {
+      "title": "Test Result #4",
+      "parent_id": "40796163",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Test Plan/Test Result #4"
+    },
+    "65208330": {
+      "title": "Test Plan #5",
+      "parent_id": "40796163",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Test Plan/Test Plan #5"
     },
     "40829224": {
       "title": "Implementation",
       "parent_id": "40829168",
-      "local_path": "최종2팀/Implementation",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Implementation",
       "is_folder": true
     },
     "40960005": {
       "title": "Basic Project Setup",
       "parent_id": "40829224",
-      "local_path": "최종2팀/Implementation/Basic Project Setup"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Implementation/Basic Project Setup"
     },
     "40992790": {
       "title": "Simulation",
       "parent_id": "40829224",
-      "local_path": "최종2팀/Implementation/Simulation"
-    },
-    "41189378": {
-      "title": "Tech Research",
-      "parent_id": "40829224",
-      "local_path": "최종2팀/Implementation/Tech Research",
-      "is_folder": true
-    },
-    "41582628": {
-      "title": "OMX (OpenMANIPULATOR-X) 로 LeRobot 양팔 학습하기",
-      "parent_id": "41189378",
-      "local_path": "최종2팀/Implementation/Tech Research/OMX (OpenMANIPULATOR-X) 로 LeRobot 양팔 학습하기"
-    },
-    "42893322": {
-      "title": "3D 뎁스 카메라 (Depth Camera)",
-      "parent_id": "41189378",
-      "local_path": "최종2팀/Implementation/Tech Research/3D 뎁스 카메라 (Depth Camera)",
-      "is_folder": true
-    },
-    "42827821": {
-      "title": "듀얼 웹캠을 이용한 뎁스 카메라 (Stereo Vision) 구현 가이드",
-      "parent_id": "42893322",
-      "local_path": "최종2팀/Implementation/Tech Research/3D 뎁스 카메라 (Depth Camera)/듀얼 웹캠을 이용한 뎁스 카메라 (Stereo Vision) 구현 가이드"
-    },
-    "42893385": {
-      "title": "모방학습 논문 조사 리스트",
-      "parent_id": "41189378",
-      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트",
-      "is_folder": true
-    },
-    "42827861": {
-      "title": "π*0.6 논문 리뷰  Experience-aware VLA",
-      "parent_id": "42893385",
-      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/π*0.6 논문 리뷰  Experience-aware VLA"
-    },
-    "42893411": {
-      "title": "상호작용 모방 학습 (IIL) 및 RLIF 기술조사 (이정우)",
-      "parent_id": "42893385",
-      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/상호작용 모방 학습 (IIL) 및 RLIF 기술조사 (이정우)"
-    },
-    "43122698": {
-      "title": "Action Chunking with Transformers(ACT) 구조와 성능 분석 논문 리뷰",
-      "parent_id": "42893385",
-      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/Action Chunking with Transformers(ACT) 구조와 성능 분석 논문 리뷰"
-    },
-    "43220993": {
-      "title": "VLA 의 역사와 발전사에 관한 개요. 그리고 그것에 관한 논문들 리스트 정리",
-      "parent_id": "42893385",
-      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/VLA 의 역사와 발전사에 관한 개요. 그리고 그것에 관한 논문들 리스트 정리"
-    },
-    "44433410": {
-      "title": "Demystifying Diffusion Policies: Action Memorization and Simple Lookup Table Alternatives",
-      "parent_id": "42893385",
-      "local_path": "최종2팀/Implementation/Tech Research/모방학습 논문 조사 리스트/Demystifying Diffusion Policies_ Action Memorization and Simple Lookup Table Alternatives"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Implementation/Simulation"
     },
     "40927234": {
       "title": "Concepts",
       "parent_id": "40829168",
-      "local_path": "최종2팀/Concepts",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Concepts",
       "is_folder": true
     },
     "41156729": {
       "title": "About Project",
       "parent_id": "40927234",
-      "local_path": "최종2팀/Concepts/About Project"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Concepts/About Project"
     },
     "41222230": {
       "title": "프로젝트 주제 선정 회의",
       "parent_id": "40927234",
-      "local_path": "최종2팀/Concepts/프로젝트 주제 선정 회의"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Concepts/프로젝트 주제 선정 회의"
     },
     "40992771": {
       "title": "Meeting Notes",
       "parent_id": "40829168",
-      "local_path": "최종2팀/Meeting Notes",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes",
       "is_folder": true
     },
     "40796182": {
       "title": "Mentoring",
       "parent_id": "40992771",
-      "local_path": "최종2팀/Meeting Notes/Mentoring",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Mentoring",
       "is_folder": true
     },
     "41189454": {
       "title": "# 26-xx-xx Mentoring",
       "parent_id": "40796182",
-      "local_path": "최종2팀/Meeting Notes/Mentoring/# 26-xx-xx Mentoring"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Mentoring/# 26-xx-xx Mentoring"
     },
     "42467329": {
       "title": "26-04-24-2 Mentoring",
       "parent_id": "40796182",
-      "local_path": "최종2팀/Meeting Notes/Mentoring/26-04-24-2 Mentoring"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Mentoring/26-04-24-2 Mentoring"
+    },
+    "48037889": {
+      "title": "26-04-30 Mentoring",
+      "parent_id": "40796182",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Mentoring/26-04-30 Mentoring"
+    },
+    "54165514": {
+      "title": "26-05-12 Mentoring",
+      "parent_id": "40796182",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Mentoring/26-05-12 Mentoring"
+    },
+    "57737217": {
+      "title": "26-05-14 Mentoring",
+      "parent_id": "40796182",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Mentoring/26-05-14 Mentoring"
+    },
+    "63471617": {
+      "title": "26-05-21 Mentoring",
+      "parent_id": "40796182",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Mentoring/26-05-21 Mentoring"
     },
     "40992828": {
       "title": "Standup Meeting",
       "parent_id": "40992771",
-      "local_path": "최종2팀/Meeting Notes/Standup Meeting",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting",
       "is_folder": true
     },
     "41091178": {
       "title": "26-xx-xx Stand Up Meeting",
       "parent_id": "40992828",
-      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-xx-xx Stand Up Meeting"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-xx-xx Stand Up Meeting"
     },
     "41517330": {
       "title": "26-04-24 Stand Up Meeting",
       "parent_id": "40992828",
-      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-04-24 Stand Up Meeting"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-04-24 Stand Up Meeting"
     },
     "43548673": {
       "title": "26-04-27 Stand Up Meeting",
       "parent_id": "40992828",
-      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-04-27 Stand Up Meeting"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-04-27 Stand Up Meeting"
     },
     "44892161": {
       "title": "26-04-28 Stand Up Meeting",
       "parent_id": "40992828",
-      "local_path": "최종2팀/Meeting Notes/Standup Meeting/26-04-28 Stand Up Meeting"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-04-28 Stand Up Meeting"
+    },
+    "45711361": {
+      "title": "26-04-29 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-04-29 Stand Up Meeting"
+    },
+    "47251457": {
+      "title": "26-04-30 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-04-30 Stand Up Meeting"
+    },
+    "49086466": {
+      "title": "26-05-04 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-04 Stand Up Meeting"
+    },
+    "50167809": {
+      "title": "26-05-06 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-06 Stand Up Meeting"
+    },
+    "50167819": {
+      "title": "26-05-08 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-08 Stand Up Meeting"
+    },
+    "51052545": {
+      "title": "26-05-07 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-07 Stand Up Meeting"
+    },
+    "53084163": {
+      "title": "26-05-11 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-11 Stand Up Meeting"
+    },
+    "54165505": {
+      "title": "26-05-12 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-12 Stand Up Meeting"
+    },
+    "56033281": {
+      "title": "26-05-13 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-13 Stand Up Meeting"
+    },
+    "57671681": {
+      "title": "Copy of 26-05-14 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/Copy of 26-05-14 Stand Up Meeting"
+    },
+    "58294273": {
+      "title": "26-05-15 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-15 Stand Up Meeting"
+    },
+    "59047938": {
+      "title": "26-05-16 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-16 Stand Up Meeting"
+    },
+    "60162049": {
+      "title": "26-05-19 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-19 Stand Up Meeting"
+    },
+    "61603841": {
+      "title": "26-05-20 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-20 Stand Up Meeting"
+    },
+    "62750721": {
+      "title": "26-05-21 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-21 Stand Up Meeting"
+    },
+    "63733761": {
+      "title": "26-05-22 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-22 Stand Up Meeting"
+    },
+    "64454807": {
+      "title": "26-05-26 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-26 Stand Up Meeting"
+    },
+    "65798145": {
+      "title": "26-05-27 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-27 Stand Up Meeting"
+    },
+    "67567617": {
+      "title": "26-05-28 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-28 Stand Up Meeting"
+    },
+    "69009409": {
+      "title": "26-05-29 Stand Up Meeting",
+      "parent_id": "40992828",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Standup Meeting/26-05-29 Stand Up Meeting"
     },
     "41058309": {
       "title": "Sprint Meeting",
       "parent_id": "40992771",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting",
       "is_folder": true
     },
     "41189582": {
-      "title": "Sprint #1",
+      "title": "Sprint #0",
       "parent_id": "41058309",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #1"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting/Sprint #0"
     },
     "41615614": {
-      "title": "Sprint #3",
-      "parent_id": "41058309",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #3"
-    },
-    "41615623": {
-      "title": "Sprint #6",
-      "parent_id": "41058309",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #6"
-    },
-    "42041345": {
       "title": "Sprint #2",
       "parent_id": "41058309",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #2"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting/Sprint #2"
     },
-    "42041354": {
-      "title": "Sprint #4",
-      "parent_id": "41058309",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #4"
-    },
-    "42041363": {
+    "41615623": {
       "title": "Sprint #5",
       "parent_id": "41058309",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #5"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting/Sprint #5"
+    },
+    "42041345": {
+      "title": "Sprint #1",
+      "parent_id": "41058309",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting/Sprint #1"
+    },
+    "42041354": {
+      "title": "Sprint #3",
+      "parent_id": "41058309",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting/Sprint #3"
+    },
+    "42041363": {
+      "title": "Sprint #4",
+      "parent_id": "41058309",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting/Sprint #4"
     },
     "42041372": {
-      "title": "Sprint #7",
+      "title": "Sprint #6",
       "parent_id": "41058309",
-      "local_path": "최종2팀/Meeting Notes/Sprint Meeting/Sprint #7"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Meeting Notes/Sprint Meeting/Sprint #6"
     },
     "41123852": {
-      "title": "Presentation",
+      "title": "Demo Presentation",
       "parent_id": "40829168",
-      "local_path": "최종2팀/Presentation"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation",
+      "is_folder": true
+    },
+    "58261657": {
+      "title": "Teacher Portal",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Teacher Portal"
+    },
+    "58261665": {
+      "title": "Doctor Portal",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Doctor Portal"
+    },
+    "58359886": {
+      "title": "Noriarm",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Noriarm"
+    },
+    "58458188": {
+      "title": "Admin APP",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Admin APP"
+    },
+    "58556456": {
+      "title": "GogoPing",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing",
+      "is_folder": true
+    },
+    "69927005": {
+      "title": "Demo",
+      "parent_id": "58556456",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Demo",
+      "is_folder": true
+    },
+    "69927038": {
+      "title": "Sub Demo",
+      "parent_id": "69927005",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Demo/Sub Demo"
+    },
+    "69992547": {
+      "title": "Main Demo",
+      "parent_id": "69927005",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Demo/Main Demo",
+      "is_folder": true
+    },
+    "69402670": {
+      "title": "추종",
+      "parent_id": "69992547",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Demo/Main Demo/추종"
+    },
+    "69927013": {
+      "title": "Tech",
+      "parent_id": "58556456",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech",
+      "is_folder": true
+    },
+    "64454823": {
+      "title": "Nav2 Navigation Stack",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack",
+      "is_folder": true
+    },
+    "69927196": {
+      "title": "Controller Server",
+      "parent_id": "64454823",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Controller Server"
+    },
+    "69959925": {
+      "title": "Route Server",
+      "parent_id": "64454823",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Route Server"
+    },
+    "69959961": {
+      "title": "Costmap",
+      "parent_id": "64454823",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Costmap"
+    },
+    "69992690": {
+      "title": "Planner Server",
+      "parent_id": "64454823",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/Planner Server"
+    },
+    "69992774": {
+      "title": "동적장애물 - 사람  일때 경로 재탐색",
+      "parent_id": "64454823",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/동적장애물 - 사람  일때 경로 재탐색"
+    },
+    "70025446": {
+      "title": "BT Navigator",
+      "parent_id": "64454823",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Nav2 Navigation Stack/BT Navigator"
+    },
+    "64880654": {
+      "title": "Sequence_diagram",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Sequence_diagram"
+    },
+    "65306629": {
+      "title": "State",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/State"
+    },
+    "69927114": {
+      "title": "hardware specs",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/hardware specs"
+    },
+    "69959870": {
+      "title": "test report",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/test report"
+    },
+    "69992759": {
+      "title": "namespace",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/namespace"
+    },
+    "70025347": {
+      "title": "interfaces",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/interfaces"
+    },
+    "70025363": {
+      "title": "기능 구현 방안",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안",
+      "is_folder": true
+    },
+    "69927277": {
+      "title": "리턴 기능 / low_battery_returning",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/리턴 기능 _ low_battery_returning"
+    },
+    "69927292": {
+      "title": "idle 모드",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/idle 모드"
+    },
+    "69960013": {
+      "title": "수동모드",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/수동모드"
+    },
+    "69992736": {
+      "title": "에러 모드",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/에러 모드"
+    },
+    "69992751": {
+      "title": "비기능",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/비기능"
+    },
+    "70025380": {
+      "title": "추종_",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/추종_"
+    },
+    "70025388": {
+      "title": "숨바꼭질",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/숨바꼭질"
+    },
+    "70025492": {
+      "title": "Admin_ui 기능",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/Admin_ui 기능"
+    },
+    "70025525": {
+      "title": "이동모드",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/이동모드"
+    },
+    "70025540": {
+      "title": "자장가 모드",
+      "parent_id": "70025363",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/기능 구현 방안/자장가 모드"
+    },
+    "70025549": {
+      "title": "System requirement - gogopingGogoPing",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/System requirement - gogopingGogoPing"
+    },
+    "58622021": {
+      "title": "Eduping",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Eduping",
+      "is_folder": true
+    },
+    "65077274": {
+      "title": "원격진찰",
+      "parent_id": "58622021",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Eduping/원격진찰"
+    },
+    "69992449": {
+      "title": "등원 하이파이브",
+      "parent_id": "58622021",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Eduping/등원 하이파이브"
+    },
+    "69992718": {
+      "title": "율동",
+      "parent_id": "58622021",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Eduping/율동"
+    },
+    "58687558": {
+      "title": "Parent Portal",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/Parent Portal"
+    },
+    "64454659": {
+      "title": "호출어 -> TTS -> STT",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/호출어 -> TTS -> STT"
+    },
+    "64454721": {
+      "title": "STT -> LLM",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/STT -> LLM"
+    },
+    "64520403": {
+      "title": "블럭쌓기 게임",
+      "parent_id": "41123852",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/블럭쌓기 게임"
     },
     "41156610": {
       "title": "Design",
       "parent_id": "40829168",
-      "local_path": "최종2팀/Design",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design",
       "is_folder": true
     },
     "40763394": {
-      "title": "Directory Structure",
+      "title": "Folder Structure",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/Directory Structure"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/Folder Structure"
     },
     "40763414": {
       "title": "System Requirements",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/System Requirements"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/System Requirements"
     },
     "40796220": {
       "title": "ERD",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/ERD"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/ERD"
     },
     "40927253": {
       "title": "Interface Specification",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/Interface Specification"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/Interface Specification"
     },
     "40927273": {
       "title": "Map",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/Map"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/Map"
     },
     "40927292": {
       "title": "State Diagram",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/State Diagram"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/State Diagram",
+      "is_folder": true
+    },
+    "49414529": {
+      "title": "Gogoping State Diagram",
+      "parent_id": "40927292",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/State Diagram/Gogoping State Diagram"
     },
     "40992866": {
       "title": "Sequence Diagram",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/Sequence Diagram"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/Sequence Diagram"
     },
     "41058328": {
       "title": "User Requirements",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/User Requirements"
-    },
-    "41189397": {
-      "title": "GUI",
-      "parent_id": "41156610",
-      "local_path": "최종2팀/Design/GUI"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/User Requirements"
     },
     "41189416": {
       "title": "System Architecture",
       "parent_id": "41156610",
-      "local_path": "최종2팀/Design/System Architecture"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/System Architecture"
+    },
+    "48332818": {
+      "title": "Implementation Plan",
+      "parent_id": "41156610",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Design/Implementation Plan"
     },
     "41156630": {
       "title": "Final Report",
       "parent_id": "40829168",
-      "local_path": "최종2팀/Final Report"
+      "local_path": "사랑의 에듀핑 - 핑더가든/Final Report"
     },
-    "41222145": {
-      "title": "📝 테스트 및 검증",
+    "41189378": {
+      "title": "Tech Research",
       "parent_id": "40829168",
-      "local_path": "최종2팀/📝 테스트 및 검증",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research",
       "is_folder": true
     },
-    "40927460": {
-      "title": "Sprint X Test Plan",
-      "parent_id": "41222145",
-      "local_path": "최종2팀/📝 테스트 및 검증/Sprint X Test Plan"
+    "41582628": {
+      "title": "OMX (OpenMANIPULATOR-X) 로 LeRobot 양팔 학습하기",
+      "parent_id": "41189378",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/OMX (OpenMANIPULATOR-X) 로 LeRobot 양팔 학습하기"
     },
-    "41123943": {
-      "title": "Sprint X Test Report",
-      "parent_id": "41222145",
-      "local_path": "최종2팀/📝 테스트 및 검증/Sprint X Test Report"
+    "42893322": {
+      "title": "3D 뎁스 카메라 (Depth Camera)",
+      "parent_id": "41189378",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/3D 뎁스 카메라 (Depth Camera)",
+      "is_folder": true
+    },
+    "42827821": {
+      "title": "듀얼 웹캠을 이용한 뎁스 카메라 (Stereo Vision) 구현 가이드",
+      "parent_id": "42893322",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/3D 뎁스 카메라 (Depth Camera)/듀얼 웹캠을 이용한 뎁스 카메라 (Stereo Vision) 구현 가이드"
+    },
+    "42893385": {
+      "title": "모방학습 논문 조사 리스트",
+      "parent_id": "41189378",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/모방학습 논문 조사 리스트",
+      "is_folder": true
+    },
+    "42827861": {
+      "title": "π*0.6 논문 리뷰  Experience-aware VLA",
+      "parent_id": "42893385",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/모방학습 논문 조사 리스트/π*0.6 논문 리뷰  Experience-aware VLA"
+    },
+    "42893411": {
+      "title": "상호작용 모방 학습 (IIL) 및 RLIF 기술조사 (이정우)",
+      "parent_id": "42893385",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/모방학습 논문 조사 리스트/상호작용 모방 학습 (IIL) 및 RLIF 기술조사 (이정우)"
+    },
+    "43122698": {
+      "title": "Action Chunking with Transformers(ACT) 구조와 성능 분석 논문 리뷰",
+      "parent_id": "42893385",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/모방학습 논문 조사 리스트/Action Chunking with Transformers(ACT) 구조와 성능 분석 논문 리뷰"
+    },
+    "43220993": {
+      "title": "VLA 의 역사와 발전사에 관한 개요. 그리고 그것에 관한 논문들 리스트 정리",
+      "parent_id": "42893385",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/모방학습 논문 조사 리스트/VLA 의 역사와 발전사에 관한 개요. 그리고 그것에 관한 논문들 리스트 정리"
+    },
+    "44433410": {
+      "title": "Demystifying Diffusion Policies: Action Memorization and Simple Lookup Table Alternatives",
+      "parent_id": "42893385",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Tech Research/모방학습 논문 조사 리스트/Demystifying Diffusion Policies_ Action Memorization and Simple Lookup Table Alternatives"
+    },
+    "69927355": {
+      "title": "Follow — 추종 (발표 참조)",
+      "parent_id": "69927013",
+      "local_path": "사랑의 에듀핑 - 핑더가든/Demo Presentation/GogoPing/Tech/Follow — 추종 (발표 참조)"
     }
   },
   "_last_synced_target": "https://woolimi.atlassian.net|FN"
